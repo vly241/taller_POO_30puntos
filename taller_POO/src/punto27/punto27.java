@@ -5,14 +5,19 @@ class punto27 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int arreglo[] = {1, 47, 7, 41, 52};
-        int total = 0;
-    
-        for (int contador = 0; contador < arreglo.length; contador++) {
-            total += arreglo[contador];
-            System.out.println(arreglo[contador]+"=="+total+"+");
-        }
-           System.exit(0);
+
+
+int[] vector = new int[5];
+		int total=0;
+		
+		for(int x=0;x<vector.length;x++) {
+			vector[x] = (int) (Math.random()*20)+1;
+			
+			total += vector[x];
+			System.out.println(vector[x]+ "+");
+		}
+		System.out.println("total del vector: "+total);
+
 	}
 
 	

@@ -1,10 +1,12 @@
-package punto13;
+package p_13;
 import java.util.*;
-class punto13 {
+class p_13 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-       
+
+
+
 		Scanner sc = new Scanner(System.in);
 		int a,b,c;
 	    int x1,x2;
@@ -36,8 +38,6 @@ class punto13 {
 		
 		
 
-
-		
 	}
 
 }
